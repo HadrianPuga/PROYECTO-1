@@ -2,9 +2,9 @@ let myImage = document.querySelector("img");
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute("src");
-  if(mySrc === "images/firefox-icon.png") {
-    myImage.setAttribute ("src","images/firefox2-icon.png");
+  if(mySrc === "https://w7.pngwing.com/pngs/864/304/png-transparent-firefox-web-browser-mozilla-add-on-google-chrome-firefox-orange-computer-wallpaper-sphere.png") {
+    myImage.setAttribute ("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcJ6F9TFq2VcPFgnbTBiWo18Lz_Z7z0285FQ&usqp=CAU");
   } else {
-    myImage.setAttribute ("src", "images/firefox-icon.png");
+    myImage.setAttribute ("src", "https://w7.pngwing.com/pngs/864/304/png-transparent-firefox-web-browser-mozilla-add-on-google-chrome-firefox-orange-computer-wallpaper-sphere.png");
   }
 }
